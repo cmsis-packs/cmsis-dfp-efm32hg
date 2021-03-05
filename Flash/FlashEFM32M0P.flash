@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <flash_device>
-  <exe>${CMSIS_PACK_PATH_SiliconLabs#EFM32HG_DFP#2.7.3}$\Flash\FlashEFM32M0P.out</exe>
+  <exe>${CMSIS_PACK_PATH_SiliconLabs#EFM32HG_DFP#3.0.0}$\Flash\FlashEFM32M0P.out</exe>
   <page>4</page>
   <block>2048 0x200</block>
   <flash_base>0x00000000</flash_base>
-  <macro>${CMSIS_PACK_PATH_SiliconLabs#EFM32HG_DFP#2.7.3}$\Flash\FlashEFM32M0P.mac</macro>
+  <macro>${CMSIS_PACK_PATH_SiliconLabs#EFM32HG_DFP#3.0.0}$\Flash\FlashEFM32M0P.mac</macro>
   <aggregate>1</aggregate>
 </flash_device>
 
