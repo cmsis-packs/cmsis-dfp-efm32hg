@@ -1,9 +1,9 @@
 #!/bin/bash
 
-name=cmsis-dfp-template
-vendor=template
-version=0.0
-source_url=
+name=cmsis-dfp-efm32hg
+vendor=SiliconLabs
+version=2.7.0
+source_url=https://www.silabs.com/documents/public/cmsis-packs/$vendor.GeckoPlatform_EFM32HG_DFP.$version.pack
 
 build_dir='cmsis_build'
 deploy_dir='cmsis_deploy'
@@ -55,8 +55,10 @@ extract() {
 
 deploy() {
     echo "deploying..."
-    cp -r $build_dir/example $deploy_dir
-    cp $build_dir/example.txt $deploy_dir
+    cp -r $build_dir/Device $deploy_dir
+    cp -r $build_dir/Documents $deploy_dir
+    cp -r $build_dir/Flash $deploy_dir
+    cp -r $build_dir/SVD $deploy_dir
 }
 
 prepare
