@@ -2,6 +2,6 @@
 
 <flash_board>
   <pass>
-    <loader>${CMSIS_PACK_PATH_SiliconLabs#EFM32HG_DFP#2.7.0}$\Flash\FlashEFM32M0P.flash</loader>
+    <loader>${CMSIS_PACK_PATH_SiliconLabs#EFM32HG_DFP#2.7.3}$\Flash\FlashEFM32M0P.flash</loader>
   </pass>
 </flash_board>
