@@ -2,7 +2,7 @@
 
 name=cmsis-dfp-efm32hg
 vendor=SiliconLabs
-version=2.7.0
+version=2.7.3
 source_url=https://www.silabs.com/documents/public/cmsis-packs/$vendor.GeckoPlatform_EFM32HG_DFP.$version.pack
 
 build_dir='cmsis_build'
