@@ -1,0 +1,10 @@
+
+setup()
+{
+  __message "Setting up EFM32M0P flash";
+}
+
+execUserFlashInit()
+{
+  setup();
+}
